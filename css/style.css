@@ -117,3 +117,51 @@ header {
   text-decoration: none;
   color: #fff;
 }
+
+.ifood{
+  position: fixed;
+  right:0;
+  top: 200px;
+  box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+}
+
+#BoasVindas{
+  display: flex;
+  justify-content: center;
+ margin: 0 auto; 
+ /* Margem em cima em baixo posição 0, esquerda e direita automático, o que faz com que fique no Centro */
+ padding-bottom: 15px;
+ background: #f6f6f6;
+}
+
+#BoasVindas img{
+  padding: 0 100px;
+}
+
+#TextoBoasVindas{
+  max-width: 600px;
+  padding-right: 100px;
+}
+
+#TextoBoasVindas h4{
+text-transform: uppercase;
+font-size: 16px;
+margin: 0;
+padding-top: 22px;
+font-family: 'Times New Roman', Times, serif
+}
+
+#TextoBoasVindas h3{
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e7a200;
+  font-size: 23px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+#TextoBoasVindas p{
+  margin-bottom:0;
+}
