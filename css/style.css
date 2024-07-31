@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -209,6 +210,27 @@ margin: 0 0 7px 0;
   padding-top: 20px ;
 }
 
+#Delivery{
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+
+#Delivery h1{
+  text-transform: uppercase;
+  color: #bf0a20;
+  font-weight: 900;
+}
+
+#Delivery .sec-menu{
+  justify-content: center;
+  padding: 40px;
+}
 
 /* #Cardapio div{
   width: 100%;
