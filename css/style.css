@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -114,47 +113,47 @@ header {
   gap: 7px;
 }
 
-.Zap{
+.Zap {
   text-decoration: none;
   color: #fff;
 }
 
-.ifood{
+.ifood {
   position: fixed;
-  right:0;
+  right: 0;
   top: 200px;
-  box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
--moz-box-shadow: -10px 10px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
-#BoasVindas{
+#BoasVindas {
   display: flex;
   justify-content: center;
- margin: 0 auto; 
- /* Margem em cima em baixo posição 0, esquerda e direita automático, o que faz com que fique no Centro */
- padding-bottom: 15px;
- background: #f6f6f6;
+  margin: 0 auto;
+  /* Margem em cima em baixo posição 0, esquerda e direita automático, o que faz com que fique no Centro */
+  padding-bottom: 15px;
+  background: #f6f6f6;
 }
 
-#BoasVindas img{
+#BoasVindas img {
   padding: 0 100px;
 }
 
-#TextoBoasVindas{
+#TextoBoasVindas {
   max-width: 600px;
   padding-right: 100px;
 }
 
-#TextoBoasVindas h4{
-text-transform: uppercase;
-font-size: 16px;
-margin: 0;
-padding-top: 22px;
-font-family: 'Times New Roman', Times, serif
+#TextoBoasVindas h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 22px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-#TextoBoasVindas h3{
+#TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
   color: #e7a200;
@@ -163,54 +162,54 @@ font-family: 'Times New Roman', Times, serif
   margin-top: 20px;
 }
 
-#TextoBoasVindas p{
-  margin-bottom:0;
+#TextoBoasVindas p {
+  margin-bottom: 0;
 }
 
-#Cardapio{
+#Cardapio {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#Cardapio img{
+#Cardapio img {
   padding: 36px 0;
 }
 
-#Cardapio div img{
+#Cardapio div img {
   padding: 0;
 }
 
-#Cardapio h2{
-color: #d03012;
-text-transform: uppercase;
-font-size: 28px;
-font-weight: 900;
-margin: 0 0 7px 0; 
-/* cima, baixo, esquerda, direita respectivamente */
+#Cardapio h2 {
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px 0;
+  /* cima, baixo, esquerda, direita respectivamente */
 }
 
-.btnCardapio{
+.btnCardapio {
   text-decoration: none;
-  color: #FFF;
+  color: #fff;
   background: #8daa3e;
   padding: 10px 20px;
   border-radius: 50px;
   border-bottom: 2px solid #6b7552;
 }
 
-#PromoPizzas{
+#PromoPizzas {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding-top: 20px ;
+  padding-top: 20px;
 }
 
-#Delivery{
+#Delivery {
   max-height: 270px;
   background: #ebe7db;
   margin: 50px 0;
@@ -221,15 +220,27 @@ margin: 0 0 7px 0;
   text-align: center;
 }
 
-#Delivery h1{
+#Delivery h1 {
   text-transform: uppercase;
   color: #bf0a20;
   font-weight: 900;
 }
 
-#Delivery .sec-menu{
+#Delivery .sec-menu {
   justify-content: center;
   padding: 40px;
+}
+
+#Icone {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 20px 0;
+}
+
+.iconitens {
+  max-width: 250px;
+  text-align: center;
 }
 
 /* #Cardapio div{
