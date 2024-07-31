@@ -122,6 +122,8 @@ header {
   position: fixed;
   right: 0;
   top: 200px;
+  z-index: 10;
+
   box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
@@ -309,6 +311,49 @@ header {
   color: #fff;
   font-weight: 700;
   margin-top: 20px;
+}
+
+footer {
+  background: #e7a200;
+  min-height: 400px;
+  margin-top: -281px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+footer #dados {
+  display: flex;
+  margin: 0 14%;
+  justify-content: space-between;
+}
+
+
+#dados p,
+#dados h4 {
+  margin: 0;
+}
+
+
+#dados h4 {
+  margin-top: 10px;
+}
+
+
+footer #dados:first-child {
+  margin-left: 20%;
+}
+
+
+#copyright {
+  text-align: center;
+  margin-top: 100px;
+}
+
+textarea{
+  resize: none;
 }
 
 /* #Cardapio div{
