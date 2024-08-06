@@ -13,7 +13,7 @@ body {
 }
 
 .bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+  background: url(../img/bannertest.jpg) no-repeat center/cover;
   /* 
        background-color: blue;
        background-image: url(https://placehold.co/1920x1080); 
@@ -81,8 +81,9 @@ header {
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #e3a41f;
 }
+
 
 .site-header-main {
   display: flex;
@@ -101,7 +102,7 @@ header {
 }
 
 #btnZap {
-  background: #e7a200;
+  background: #e3a41f;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -124,9 +125,9 @@ header {
   top: 200px;
   z-index: 10;
 
-  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
+  -webkit-filter: drop-shadow(-2px 4px 6px black);
+  -moz-filter: drop-shadow(-2px 4px 6px black);
 }
 
 #BoasVindas {
@@ -158,7 +159,7 @@ header {
 #TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #e7a200;
+  color: #e3a41f;
   font-size: 23px;
   margin-bottom: 0;
   margin-top: 20px;
@@ -184,7 +185,7 @@ header {
 }
 
 #Cardapio h2 {
-  color: #d03012;
+  color: #ff3131;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 900;
@@ -224,7 +225,7 @@ header {
 
 #Delivery h1 {
   text-transform: uppercase;
-  color: #bf0a20;
+  color: #ff3131;
   font-weight: 900;
 }
 
@@ -267,7 +268,7 @@ header {
 }
 
 .forms h2 {
-  color: #e7a200;
+  color: #e3a41f;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -305,8 +306,8 @@ header {
 }
 
 .forms input[type="submit"]{
-  background: #e7a200;
-  border-color: #e7a200;
+  background: #e3a41f;
+  border-color: #e3a41f;
   width: 155px;
   color: #fff;
   font-weight: 700;
@@ -314,7 +315,7 @@ header {
 }
 
 footer {
-  background: #e7a200;
+  background: #e3a41f;
   min-height: 400px;
   margin-top: -281px;
   color: #fff;
